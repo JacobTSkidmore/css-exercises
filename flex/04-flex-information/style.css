@@ -17,10 +17,9 @@ img {
 
 .content {
   display: flex;
-  align-items: center;
   justify-content: space-around;
-  padding: 10px;
   text-align: center;
+  gap: 52px;
 }
 
 .first, .second, .third, .fourth {
@@ -28,7 +27,6 @@ img {
   flex-direction: column;
   flex-wrap: wrap;
   width: 200px;
-  margin: 0 52px;
 }
 
 /* do not edit this footer */
